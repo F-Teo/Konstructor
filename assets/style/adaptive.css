@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px), screen and (max-width: 1378px) {
+    .header-nav {
+        padding: 24px 200px;
+    }
+
+    .block-story {
+        padding: 0 200px;
+    }
+
+    .block-story__about:last-child {
+        display: flex;
+    }
+
+    .block-story__about:last-child > img:nth-child(2) {
+        padding: 0 5px;
+    }
+}
